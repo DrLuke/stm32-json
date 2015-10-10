@@ -11,243 +11,22 @@
         "min": 0,
         "max": "32"
     },
+    "datasheetlink": "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00106442.pdf",
     "pins": {
-        "PC8": {
-            "position": "G2",
+        "PB6": {
+            "position": "C5",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_SEG26",
-                "TIM3_CH3",
-                "TIMX_IC1",
-                "TS_G10_IO3"
-            ],
-            "type": "I/O"
-        },
-        "PH2": {
-            "position": "D1",
-            "altfunctions": [],
-            "type": "I/O"
-        },
-        "PE9": {
-            "position": "M4",
-            "altfunctions": [
-                "ADC_IN24",
-                "COMP1_INP",
-                "DAC_EXTI9",
-                "TIM2_CH1",
-                "TIM2_ETR",
-                "TIMX_IC2"
-            ],
-            "type": "I/O"
-        },
-        "PC1": {
-            "position": "H9",
-            "altfunctions": [
-                "ADC_IN11",
-                "COMP1_INP",
-                "LCD_SEG19",
-                "TIMX_IC2",
-                "TS_G8_IO2"
-            ],
-            "type": "I/O"
-        },
-        "PD14": {
-            "position": "J1",
-            "altfunctions": [
-                "LCD_SEG34",
-                "TIM4_CH3",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
-        },
-        "PE11": {
-            "position": "L5",
-            "altfunctions": [
-                "ADC_EXTI11",
-                "TIM2_CH3",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
-        },
-        "PE8": {
-            "position": "M5",
-            "altfunctions": [
-                "ADC_IN23",
-                "COMP1_INP",
-                "TIMX_IC1"
-            ],
-            "type": "I/O"
-        },
-        "PC12": {
-            "position": "B2",
-            "altfunctions": [
-                "I2S3_SD",
-                "LCD_COM6",
-                "LCD_SEG30",
-                "LCD_SEG42",
-                "SPI3_MOSI",
-                "TIMX_IC1",
-                "UART5_TX",
-                "USART3_CK"
-            ],
-            "type": "I/O"
-        },
-        "PA4": {
-            "position": "J7",
-            "altfunctions": [
-                "ADC_IN4",
-                "COMP1_INP",
-                "DAC_OUT1",
-                "I2S3_WS",
-                "SPI1_NSS",
-                "SPI3_NSS",
-                "TIMX_IC1",
-                "USART2_CK"
-            ],
-            "type": "I/O"
-        },
-        "VDD": {
-            "position": "M9",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PA8": {
-            "position": "F3",
-            "altfunctions": [
-                "LCD_COM0",
-                "RCC_MCO",
-                "TIMX_IC1",
-                "TS_G4_IO1",
-                "USART1_CK"
-            ],
-            "type": "I/O"
-        },
-        "PE12": {
-            "position": "M3",
-            "altfunctions": [
-                "SPI1_NSS",
-                "TIM2_CH4",
-                "TIMX_IC1"
-            ],
-            "type": "I/O"
-        },
-        "PE4": {
-            "position": "C8",
-            "altfunctions": [
-                "SYS_TRACED1",
-                "TIM3_CH2",
-                "TIMX_IC1"
-            ],
-            "type": "I/O"
-        },
-        "PB14": {
-            "position": "L1",
-            "altfunctions": [
-                "ADC_IN20",
-                "COMP1_INP",
-                "LCD_SEG14",
-                "SPI2_MISO",
-                "TIM9_CH2",
-                "TS_G7_IO3",
-                "USART3_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PC9": {
-            "position": "F4",
-            "altfunctions": [
-                "DAC_EXTI9",
-                "LCD_SEG27",
-                "TIM3_CH4",
-                "TIMX_IC2",
-                "TS_G10_IO4"
-            ],
-            "type": "I/O"
-        },
-        "PE6": {
-            "position": "E6",
-            "altfunctions": [
-                "WKUP3",
-                "RTC_TAMP3",
-                "SYS_TRACED3",
-                "SYS_WKUP3",
-                "TIM9_CH2",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
-        },
-        "PB8": {
-            "position": "D5",
-            "altfunctions": [
+                "COMP2_INP",
                 "I2C1_SCL",
-                "LCD_SEG16",
-                "TIM10_CH1",
-                "TIM4_CH3"
-            ],
-            "type": "I/O"
-        },
-        "VSSA": {
-            "position": "J9",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PC11": {
-            "position": "C2",
-            "altfunctions": [
-                "ADC_EXTI11",
-                "LCD_COM5",
-                "LCD_SEG29",
-                "LCD_SEG41",
-                "SPI3_MISO",
-                "TIMX_IC4",
-                "UART4_RX",
-                "USART3_RX"
-            ],
-            "type": "I/O"
-        },
-        "PC10": {
-            "position": "E4",
-            "altfunctions": [
-                "I2S3_CK",
-                "LCD_COM4",
-                "LCD_SEG28",
-                "LCD_SEG40",
-                "SPI3_SCK",
-                "TIMX_IC3",
-                "UART4_TX",
-                "USART3_TX"
-            ],
-            "type": "I/O"
-        },
-        "PE13": {
-            "position": "K5",
-            "altfunctions": [
-                "SPI1_SCK",
-                "TIMX_IC2"
-            ],
-            "type": "I/O"
-        },
-        "PB10": {
-            "position": "M2",
-            "altfunctions": [
-                "I2C2_SCL",
-                "LCD_SEG10",
-                "TIM2_CH3",
-                "USART3_TX"
-            ],
-            "type": "I/O"
-        },
-        "VREF+": {
-            "position": "G7",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "VLCD": {
-            "position": "E7",
-            "altfunctions": [],
-            "type": "Power"
+                "TIM4_CH1",
+                "TS_G6_IO3",
+                "USART1_TX"
+            ]
         },
         "PA6": {
             "position": "H6",
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN6",
                 "COMP1_INP",
@@ -258,185 +37,16 @@
                 "TIM3_CH1",
                 "TIMX_IC3",
                 "TS_G2_IO1"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PB7": {
-            "position": "B6",
-            "altfunctions": [
-                "COMP2_INP",
-                "I2C1_SDA",
-                "SYS_PVD_IN",
-                "TIM4_CH2",
-                "TS_G6_IO4",
-                "USART1_RX"
-            ],
-            "type": "I/O"
-        },
-        "VSS": {
-            "position": "M1",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PD5": {
-            "position": "B3",
-            "altfunctions": [
-                "TIMX_IC2",
-                "USART2_TX"
-            ],
-            "type": "I/O"
-        },
-        "PE0": {
-            "position": "B7",
-            "altfunctions": [
-                "LCD_SEG36",
-                "TIM10_CH1",
-                "TIM4_ETR",
-                "TIMX_IC1"
-            ],
-            "type": "I/O"
-        },
-        "PA12": {
-            "position": "E2",
-            "altfunctions": [
-                "SPI1_MOSI",
-                "TIMX_IC1",
-                "USART1_RTS",
-                "USB_DP"
-            ],
-            "type": "I/O"
-        },
-        "PA13": {
-            "position": "E3",
-            "altfunctions": [
-                "SYS_JTMS-SWDIO",
-                "TIMX_IC2",
-                "TS_G5_IO1"
-            ],
-            "type": "I/O"
-        },
-        "PC0": {
-            "position": "F6",
-            "altfunctions": [
-                "ADC_IN10",
-                "COMP1_INP",
-                "LCD_SEG18",
-                "TIMX_IC1",
-                "TS_G8_IO1"
-            ],
-            "type": "I/O"
-        },
-        "PD3": {
-            "position": "C4",
-            "altfunctions": [
-                "SPI2_MISO",
-                "TIMX_IC4",
-                "USART2_CTS"
-            ],
-            "type": "I/O"
-        },
-        "PC15": {
-            "position": "D9",
-            "altfunctions": [
-                "OSC32_OUT",
-                "ADC_EXTI15",
-                "RCC_OSC32_OUT",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
-        },
-        "PC5": {
-            "position": "M7",
-            "altfunctions": [
-                "ADC_IN15",
-                "COMP1_INP",
-                "LCD_SEG23",
-                "TIMX_IC2",
-                "TS_G9_IO2"
-            ],
-            "type": "I/O"
-        },
-        "PA1": {
-            "position": "L9",
-            "altfunctions": [
-                "ADC_IN1",
-                "COMP1_INP",
-                "LCD_SEG0",
-                "OPAMP1_VINP",
-                "TIM2_CH2",
-                "TIM5_CH2",
-                "TIMX_IC2",
-                "TS_G1_IO2",
-                "USART2_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PB4": {
-            "position": "A5",
-            "altfunctions": [
-                "COMP2_INP",
-                "LCD_SEG8",
-                "SPI1_MISO",
-                "SPI3_MISO",
-                "SYS_JTRST",
-                "TIM3_CH1",
-                "TS_G6_IO1"
-            ],
-            "type": "I/O"
-        },
-        "PD6": {
-            "position": "B4",
-            "altfunctions": [
-                "TIMX_IC3",
-                "USART2_RX"
-            ],
-            "type": "I/O"
-        },
-        "PD1": {
-            "position": "D4",
-            "altfunctions": [
-                "I2S2_CK",
-                "SPI2_SCK",
-                "TIMX_IC2"
-            ],
-            "type": "I/O"
-        },
-        "PH0": {
-            "position": "F8",
-            "altfunctions": [
-                "OSC_IN",
-                "RCC_OSC_IN"
-            ],
-            "type": "I/O"
-        },
-        "PD12": {
-            "position": "H3",
-            "altfunctions": [
-                "LCD_SEG32",
-                "TIM4_CH1",
-                "TIMX_IC1",
-                "USART3_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PA2": {
-            "position": "J8",
-            "altfunctions": [
-                "ADC_IN2",
-                "COMP1_INP",
-                "LCD_SEG1",
-                "OPAMP1_VINM",
-                "TIM2_CH3",
-                "TIM5_CH3",
-                "TIM9_CH1",
-                "TIMX_IC3",
-                "TS_G1_IO3",
-                "USART2_TX"
-            ],
-            "type": "I/O"
+        "PH2": {
+            "position": "D1",
+            "type": "I/O",
+            "altfunctions": []
         },
         "PA15": {
             "position": "B1",
+            "type": "I/O",
             "altfunctions": [
                 "ADC_EXTI15",
                 "I2S3_WS",
@@ -448,223 +58,221 @@
                 "TIM2_ETR",
                 "TIMX_IC4",
                 "TS_G5_IO3"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PA10": {
-            "position": "F2",
+        "PC10": {
+            "position": "E4",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_COM2",
+                "I2S3_CK",
+                "LCD_COM4",
+                "LCD_SEG28",
+                "LCD_SEG40",
+                "SPI3_SCK",
                 "TIMX_IC3",
-                "TS_G4_IO3",
-                "USART1_RX"
-            ],
-            "type": "I/O"
+                "UART4_TX",
+                "USART3_TX"
+            ]
         },
-        "PD7": {
-            "position": "A4",
+        "PD8": {
+            "position": "H4",
+            "type": "I/O",
             "altfunctions": [
-                "TIM9_CH2",
-                "TIMX_IC4",
-                "USART2_CK"
-            ],
-            "type": "I/O"
+                "LCD_SEG28",
+                "TIMX_IC1",
+                "USART3_TX"
+            ]
         },
-        "PE2": {
-            "position": "D6",
+        "PE0": {
+            "position": "B7",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_SEG38",
-                "SYS_TRACECK",
-                "TIM3_ETR",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
-        },
-        "PD15": {
-            "position": "G3",
-            "altfunctions": [
-                "ADC_EXTI15",
-                "LCD_SEG35",
-                "TIM4_CH4",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
-        },
-        "PE7": {
-            "position": "L6",
-            "altfunctions": [
-                "ADC_IN22",
-                "COMP1_INP",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
-        },
-        "PB1": {
-            "position": "K6",
-            "altfunctions": [
-                "ADC_IN9",
-                "COMP1_INP",
-                "LCD_SEG6",
-                "SYS_V_REF_OUT",
-                "TIM3_CH4",
-                "TS_G3_IO2"
-            ],
-            "type": "I/O"
-        },
-        "PD11": {
-            "position": "G4",
-            "altfunctions": [
-                "ADC_EXTI11",
-                "LCD_SEG31",
-                "TIMX_IC4",
-                "USART3_CTS"
-            ],
-            "type": "I/O"
-        },
-        "PE10": {
-            "position": "J5",
-            "altfunctions": [
-                "ADC_IN25",
-                "COMP1_INP",
-                "TIM2_CH2",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
-        },
-        "PB12": {
-            "position": "J4",
-            "altfunctions": [
-                "ADC_IN18",
-                "COMP1_INP",
-                "I2C2_SMBA",
-                "I2S2_WS",
-                "LCD_SEG12",
-                "SPI2_NSS",
+                "LCD_SEG36",
                 "TIM10_CH1",
-                "TS_G7_IO1",
-                "USART3_CK"
-            ],
-            "type": "I/O"
+                "TIM4_ETR",
+                "TIMX_IC1"
+            ]
         },
         "PB9": {
             "position": "C6",
+            "type": "I/O",
             "altfunctions": [
                 "DAC_EXTI9",
                 "I2C1_SDA",
                 "LCD_COM3",
                 "TIM11_CH1",
                 "TIM4_CH4"
-            ],
-            "type": "I/O"
+            ]
         },
-        "VREF-": {
-            "position": "H8",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PD0": {
-            "position": "A2",
+        "PA1": {
+            "position": "L9",
+            "type": "I/O",
             "altfunctions": [
-                "I2S2_WS",
-                "SPI2_NSS",
-                "TIM9_CH1",
-                "TIMX_IC1"
-            ],
-            "type": "I/O"
-        },
-        "PE14": {
-            "position": "L4",
-            "altfunctions": [
-                "SPI1_MISO",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
-        },
-        "PD10": {
-            "position": "K1",
-            "altfunctions": [
-                "LCD_SEG30",
-                "TIMX_IC3",
-                "USART3_CK"
-            ],
-            "type": "I/O"
-        },
-        "VDDA": {
-            "position": "G6",
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PB0": {
-            "position": "J6",
-            "altfunctions": [
-                "ADC_IN8",
+                "ADC_IN1",
                 "COMP1_INP",
-                "LCD_SEG5",
-                "OPAMP2_VOUT",
-                "SYS_V_REF_OUT",
-                "TIM3_CH3",
-                "TS_G3_IO1"
-            ],
-            "type": "I/O"
+                "LCD_SEG0",
+                "OPAMP1_VINP",
+                "TIM2_CH2",
+                "TIM5_CH2",
+                "TIMX_IC2",
+                "TS_G1_IO2",
+                "USART2_RTS"
+            ]
+        },
+        "PB4": {
+            "position": "A5",
+            "type": "I/O",
+            "altfunctions": [
+                "COMP2_INP",
+                "LCD_SEG8",
+                "SPI1_MISO",
+                "SPI3_MISO",
+                "SYS_JTRST",
+                "TIM3_CH1",
+                "TS_G6_IO1"
+            ]
+        },
+        "PD5": {
+            "position": "B3",
+            "type": "I/O",
+            "altfunctions": [
+                "TIMX_IC2",
+                "USART2_TX"
+            ]
+        },
+        "VLCD": {
+            "position": "E7",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "VSSA": {
+            "position": "J9",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PE8": {
+            "position": "M5",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN23",
+                "COMP1_INP",
+                "TIMX_IC1"
+            ]
         },
         "NRST": {
             "position": "F7",
-            "altfunctions": [],
-            "type": "Reset"
+            "type": "Reset",
+            "altfunctions": []
         },
-        "PC4": {
-            "position": "L7",
+        "PA3": {
+            "position": "H7",
+            "type": "I/O",
             "altfunctions": [
-                "ADC_IN14",
+                "ADC_IN3",
                 "COMP1_INP",
-                "LCD_SEG22",
-                "TIMX_IC1",
-                "TS_G9_IO1"
-            ],
-            "type": "I/O"
+                "LCD_SEG2",
+                "OPAMP1_VOUT",
+                "TIM2_CH4",
+                "TIM5_CH4",
+                "TIM9_CH2",
+                "TIMX_IC4",
+                "TS_G1_IO4",
+                "USART2_RX"
+            ]
         },
-        "BOOT0": {
-            "position": "A7",
-            "altfunctions": [],
-            "type": "Boot"
-        },
-        "PB13": {
-            "position": "J3",
+        "PD3": {
+            "position": "C4",
+            "type": "I/O",
             "altfunctions": [
-                "ADC_IN19",
-                "COMP1_INP",
-                "I2S2_CK",
-                "LCD_SEG13",
-                "SPI2_SCK",
-                "TIM9_CH1",
-                "TS_G7_IO2",
-                "USART3_CTS"
-            ],
-            "type": "I/O"
+                "SPI2_MISO",
+                "TIMX_IC4",
+                "USART2_CTS"
+            ]
         },
-        "PB6": {
-            "position": "C5",
+        "PA13": {
+            "position": "E3",
+            "type": "I/O",
             "altfunctions": [
-                "COMP2_INP",
-                "I2C1_SCL",
-                "TIM4_CH1",
-                "TS_G6_IO3",
-                "USART1_TX"
-            ],
-            "type": "I/O"
-        },
-        "PD9": {
-            "position": "J2",
-            "altfunctions": [
-                "DAC_EXTI9",
-                "LCD_SEG29",
+                "SYS_JTMS-SWDIO",
                 "TIMX_IC2",
-                "USART3_RX"
-            ],
-            "type": "I/O"
+                "TS_G5_IO1"
+            ]
+        },
+        "PD7": {
+            "position": "A4",
+            "type": "I/O",
+            "altfunctions": [
+                "TIM9_CH2",
+                "TIMX_IC4",
+                "USART2_CK"
+            ]
+        },
+        "PC8": {
+            "position": "G2",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_SEG26",
+                "TIM3_CH3",
+                "TIMX_IC1",
+                "TS_G10_IO3"
+            ]
+        },
+        "PC7": {
+            "position": "G1",
+            "type": "I/O",
+            "altfunctions": [
+                "I2S3_MCK",
+                "LCD_SEG25",
+                "TIM3_CH2",
+                "TIMX_IC4",
+                "TS_G10_IO2"
+            ]
+        },
+        "PE11": {
+            "position": "L5",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_EXTI11",
+                "TIM2_CH3",
+                "TIMX_IC4"
+            ]
+        },
+        "VREF+": {
+            "position": "G7",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PD15": {
+            "position": "G3",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_EXTI15",
+                "LCD_SEG35",
+                "TIM4_CH4",
+                "TIMX_IC4"
+            ]
+        },
+        "PH0": {
+            "position": "F8",
+            "type": "I/O",
+            "altfunctions": [
+                "OSC_IN",
+                "RCC_OSC_IN"
+            ]
+        },
+        "PD12": {
+            "position": "H3",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_SEG32",
+                "TIM4_CH1",
+                "TIMX_IC1",
+                "USART3_RTS"
+            ]
         },
         "PB15": {
             "position": "K2",
+            "type": "I/O",
             "altfunctions": [
                 "ADC_EXTI15",
                 "ADC_IN21",
@@ -675,86 +283,21 @@
                 "SPI2_MOSI",
                 "TIM11_CH1",
                 "TS_G7_IO4"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PD2": {
-            "position": "C3",
+        "PD11": {
+            "position": "G4",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_COM7",
+                "ADC_EXTI11",
                 "LCD_SEG31",
-                "LCD_SEG43",
-                "TIM3_ETR",
-                "TIMX_IC3",
-                "UART5_RX"
-            ],
-            "type": "I/O"
-        },
-        "PB11": {
-            "position": "L3",
-            "altfunctions": [
-                "ADC_EXTI11",
-                "I2C2_SDA",
-                "LCD_SEG11",
-                "TIM2_CH4",
-                "USART3_RX"
-            ],
-            "type": "I/O"
-        },
-        "PB2": {
-            "position": "M6",
-            "altfunctions": [
-                "ADC_IN0b",
-                "TS_G3_IO3"
-            ],
-            "type": "I/O"
-        },
-        "PD4": {
-            "position": "A3",
-            "altfunctions": [
-                "I2S2_SD",
-                "SPI2_MOSI",
-                "TIMX_IC1",
-                "USART2_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PA7": {
-            "position": "K7",
-            "altfunctions": [
-                "ADC_IN7",
-                "COMP1_INP",
-                "LCD_SEG4",
-                "OPAMP2_VINM",
-                "SPI1_MOSI",
-                "TIM11_CH1",
-                "TIM3_CH2",
                 "TIMX_IC4",
-                "TS_G2_IO2"
-            ],
-            "type": "I/O"
-        },
-        "PA11": {
-            "position": "E1",
-            "altfunctions": [
-                "ADC_EXTI11",
-                "SPI1_MISO",
-                "TIMX_IC4",
-                "USART1_CTS",
-                "USB_DM"
-            ],
-            "type": "I/O"
-        },
-        "PH1": {
-            "position": "F9",
-            "altfunctions": [
-                "OSC_OUT",
-                "RCC_OSC_OUT"
-            ],
-            "type": "I/O"
+                "USART3_CTS"
+            ]
         },
         "PA0": {
             "position": "K9",
+            "type": "I/O",
             "altfunctions": [
                 "WKUP1",
                 "ADC_IN0",
@@ -767,31 +310,145 @@
                 "TIMX_IC1",
                 "TS_G1_IO1",
                 "USART2_CTS"
-            ],
-            "type": "I/O"
-        },
-        "PC14": {
-            "position": "D8",
-            "altfunctions": [
-                "OSC32_IN",
-                "RCC_OSC32_IN",
-                "TIMX_IC3"
-            ],
-            "type": "I/O"
+            ]
         },
         "PC2": {
             "position": "G9",
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN12",
                 "COMP1_INP",
                 "LCD_SEG20",
                 "TIMX_IC3",
                 "TS_G8_IO3"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "PA11": {
+            "position": "E1",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_EXTI11",
+                "SPI1_MISO",
+                "TIMX_IC4",
+                "USART1_CTS",
+                "USB_DM"
+            ]
+        },
+        "PC9": {
+            "position": "F4",
+            "type": "I/O",
+            "altfunctions": [
+                "DAC_EXTI9",
+                "LCD_SEG27",
+                "TIM3_CH4",
+                "TIMX_IC2",
+                "TS_G10_IO4"
+            ]
+        },
+        "BOOT0": {
+            "position": "A7",
+            "type": "Boot",
+            "altfunctions": []
+        },
+        "PB1": {
+            "position": "K6",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN9",
+                "COMP1_INP",
+                "LCD_SEG6",
+                "SYS_V_REF_OUT",
+                "TIM3_CH4",
+                "TS_G3_IO2"
+            ]
+        },
+        "PB8": {
+            "position": "D5",
+            "type": "I/O",
+            "altfunctions": [
+                "I2C1_SCL",
+                "LCD_SEG16",
+                "TIM10_CH1",
+                "TIM4_CH3"
+            ]
+        },
+        "PB14": {
+            "position": "L1",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN20",
+                "COMP1_INP",
+                "LCD_SEG14",
+                "SPI2_MISO",
+                "TIM9_CH2",
+                "TS_G7_IO3",
+                "USART3_RTS"
+            ]
+        },
+        "PE1": {
+            "position": "A8",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_SEG37",
+                "TIM11_CH1",
+                "TIMX_IC2"
+            ]
+        },
+        "PB10": {
+            "position": "M2",
+            "type": "I/O",
+            "altfunctions": [
+                "I2C2_SCL",
+                "LCD_SEG10",
+                "TIM2_CH3",
+                "USART3_TX"
+            ]
+        },
+        "PC5": {
+            "position": "M7",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN15",
+                "COMP1_INP",
+                "LCD_SEG23",
+                "TIMX_IC2",
+                "TS_G9_IO2"
+            ]
+        },
+        "PE5": {
+            "position": "B9",
+            "type": "I/O",
+            "altfunctions": [
+                "SYS_TRACED2",
+                "TIM9_CH1",
+                "TIMX_IC2"
+            ]
+        },
+        "PC14": {
+            "position": "D8",
+            "type": "I/O",
+            "altfunctions": [
+                "OSC32_IN",
+                "RCC_OSC32_IN",
+                "TIMX_IC3"
+            ]
+        },
+        "PA5": {
+            "position": "M8",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN5",
+                "COMP1_INP",
+                "DAC_OUT2",
+                "SPI1_SCK",
+                "TIM2_CH1",
+                "TIM2_ETR",
+                "TIMX_IC2"
+            ]
         },
         "PB5": {
             "position": "A6",
+            "type": "I/O",
             "altfunctions": [
                 "COMP2_INP",
                 "I2C1_SMBA",
@@ -801,125 +458,172 @@
                 "SPI3_MOSI",
                 "TIM3_CH2",
                 "TS_G6_IO2"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PA5": {
-            "position": "M8",
+        "PC11": {
+            "position": "C2",
+            "type": "I/O",
             "altfunctions": [
-                "ADC_IN5",
-                "COMP1_INP",
-                "DAC_OUT2",
+                "ADC_EXTI11",
+                "LCD_COM5",
+                "LCD_SEG29",
+                "LCD_SEG41",
+                "SPI3_MISO",
+                "TIMX_IC4",
+                "UART4_RX",
+                "USART3_RX"
+            ]
+        },
+        "PE13": {
+            "position": "K5",
+            "type": "I/O",
+            "altfunctions": [
                 "SPI1_SCK",
-                "TIM2_CH1",
-                "TIM2_ETR",
                 "TIMX_IC2"
-            ],
-            "type": "I/O"
+            ]
         },
         "PA9": {
             "position": "F1",
+            "type": "I/O",
             "altfunctions": [
                 "DAC_EXTI9",
                 "LCD_COM1",
                 "TIMX_IC2",
                 "TS_G4_IO2",
                 "USART1_TX"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PE3": {
-            "position": "D7",
+        "PB7": {
+            "position": "B6",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_SEG39",
-                "SYS_TRACED0",
-                "TIM3_CH1",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
+                "COMP2_INP",
+                "I2C1_SDA",
+                "SYS_PVD_IN",
+                "TIM4_CH2",
+                "TS_G6_IO4",
+                "USART1_RX"
+            ]
         },
-        "PC13": {
-            "position": "C9",
+        "PE4": {
+            "position": "C8",
+            "type": "I/O",
             "altfunctions": [
-                "WKUP2",
-                "RTC_OUT_ALARM",
-                "RTC_OUT_CALIB",
-                "RTC_TAMP1",
-                "RTC_TS",
-                "SYS_WKUP2",
-                "TIMX_IC2"
-            ],
-            "type": "I/O"
+                "SYS_TRACED1",
+                "TIM3_CH2",
+                "TIMX_IC1"
+            ]
         },
-        "PE15": {
-            "position": "K4",
+        "PA8": {
+            "position": "F3",
+            "type": "I/O",
             "altfunctions": [
-                "ADC_EXTI15",
-                "SPI1_MOSI",
-                "TIMX_IC4"
-            ],
-            "type": "I/O"
+                "LCD_COM0",
+                "RCC_MCO",
+                "TIMX_IC1",
+                "TS_G4_IO1",
+                "USART1_CK"
+            ]
+        },
+        "PD0": {
+            "position": "A2",
+            "type": "I/O",
+            "altfunctions": [
+                "I2S2_WS",
+                "SPI2_NSS",
+                "TIM9_CH1",
+                "TIMX_IC1"
+            ]
+        },
+        "PB12": {
+            "position": "J4",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN18",
+                "COMP1_INP",
+                "I2C2_SMBA",
+                "I2S2_WS",
+                "LCD_SEG12",
+                "SPI2_NSS",
+                "TIM10_CH1",
+                "TS_G7_IO1",
+                "USART3_CK"
+            ]
+        },
+        "PE14": {
+            "position": "L4",
+            "type": "I/O",
+            "altfunctions": [
+                "SPI1_MISO",
+                "TIMX_IC3"
+            ]
         },
         "PD13": {
             "position": "H2",
+            "type": "I/O",
             "altfunctions": [
                 "LCD_SEG33",
                 "TIM4_CH2",
                 "TIMX_IC2"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PC7": {
-            "position": "G1",
+        "PA10": {
+            "position": "F2",
+            "type": "I/O",
             "altfunctions": [
-                "I2S3_MCK",
-                "LCD_SEG25",
-                "TIM3_CH2",
-                "TIMX_IC4",
-                "TS_G10_IO2"
-            ],
-            "type": "I/O"
+                "LCD_COM2",
+                "TIMX_IC3",
+                "TS_G4_IO3",
+                "USART1_RX"
+            ]
         },
-        "PD8": {
-            "position": "H4",
+        "PD6": {
+            "position": "B4",
+            "type": "I/O",
             "altfunctions": [
-                "LCD_SEG28",
-                "TIMX_IC1",
-                "USART3_TX"
-            ],
-            "type": "I/O"
+                "TIMX_IC3",
+                "USART2_RX"
+            ]
         },
-        "PE5": {
-            "position": "B9",
+        "PE9": {
+            "position": "M4",
+            "type": "I/O",
             "altfunctions": [
-                "SYS_TRACED2",
-                "TIM9_CH1",
-                "TIMX_IC2"
-            ],
-            "type": "I/O"
-        },
-        "PC3": {
-            "position": "G8",
-            "altfunctions": [
-                "ADC_IN13",
+                "ADC_IN24",
                 "COMP1_INP",
-                "LCD_SEG21",
-                "TIMX_IC4",
-                "TS_G8_IO4"
-            ],
-            "type": "I/O"
-        },
-        "PE1": {
-            "position": "A8",
-            "altfunctions": [
-                "LCD_SEG37",
-                "TIM11_CH1",
+                "DAC_EXTI9",
+                "TIM2_CH1",
+                "TIM2_ETR",
                 "TIMX_IC2"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "PC15": {
+            "position": "D9",
+            "type": "I/O",
+            "altfunctions": [
+                "OSC32_OUT",
+                "ADC_EXTI15",
+                "RCC_OSC32_OUT",
+                "TIMX_IC4"
+            ]
+        },
+        "PA4": {
+            "position": "J7",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN4",
+                "COMP1_INP",
+                "DAC_OUT1",
+                "I2S3_WS",
+                "SPI1_NSS",
+                "SPI3_NSS",
+                "TIMX_IC1",
+                "USART2_CK"
+            ]
         },
         "PB3": {
             "position": "B5",
+            "type": "I/O",
             "altfunctions": [
                 "COMP2_INM",
                 "I2S3_CK",
@@ -928,44 +632,341 @@
                 "SPI3_SCK",
                 "SYS_JTDO-TRACESWO",
                 "TIM2_CH2"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PA14": {
-            "position": "D3",
+        "PD10": {
+            "position": "K1",
+            "type": "I/O",
             "altfunctions": [
-                "SYS_JTCK-SWCLK",
+                "LCD_SEG30",
                 "TIMX_IC3",
-                "TS_G5_IO2"
-            ],
-            "type": "I/O"
+                "USART3_CK"
+            ]
+        },
+        "PD1": {
+            "position": "D4",
+            "type": "I/O",
+            "altfunctions": [
+                "I2S2_CK",
+                "SPI2_SCK",
+                "TIMX_IC2"
+            ]
+        },
+        "PB0": {
+            "position": "J6",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN8",
+                "COMP1_INP",
+                "LCD_SEG5",
+                "OPAMP2_VOUT",
+                "SYS_V_REF_OUT",
+                "TIM3_CH3",
+                "TS_G3_IO1"
+            ]
+        },
+        "PC13": {
+            "position": "C9",
+            "type": "I/O",
+            "altfunctions": [
+                "WKUP2",
+                "RTC_OUT_ALARM",
+                "RTC_OUT_CALIB",
+                "RTC_TAMP1",
+                "RTC_TS",
+                "SYS_WKUP2",
+                "TIMX_IC2"
+            ]
+        },
+        "PD2": {
+            "position": "C3",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_COM7",
+                "LCD_SEG31",
+                "LCD_SEG43",
+                "TIM3_ETR",
+                "TIMX_IC3",
+                "UART5_RX"
+            ]
+        },
+        "PE7": {
+            "position": "L6",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN22",
+                "COMP1_INP",
+                "TIMX_IC4"
+            ]
+        },
+        "PC0": {
+            "position": "F6",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN10",
+                "COMP1_INP",
+                "LCD_SEG18",
+                "TIMX_IC1",
+                "TS_G8_IO1"
+            ]
+        },
+        "PC1": {
+            "position": "H9",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN11",
+                "COMP1_INP",
+                "LCD_SEG19",
+                "TIMX_IC2",
+                "TS_G8_IO2"
+            ]
+        },
+        "PH1": {
+            "position": "F9",
+            "type": "I/O",
+            "altfunctions": [
+                "OSC_OUT",
+                "RCC_OSC_OUT"
+            ]
         },
         "PC6": {
             "position": "H1",
+            "type": "I/O",
             "altfunctions": [
                 "I2S2_MCK",
                 "LCD_SEG24",
                 "TIM3_CH1",
                 "TIMX_IC3",
                 "TS_G10_IO1"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PA3": {
-            "position": "H7",
+        "PE3": {
+            "position": "D7",
+            "type": "I/O",
             "altfunctions": [
-                "ADC_IN3",
-                "COMP1_INP",
-                "LCD_SEG2",
-                "OPAMP1_VOUT",
-                "TIM2_CH4",
-                "TIM5_CH4",
+                "LCD_SEG39",
+                "SYS_TRACED0",
+                "TIM3_CH1",
+                "TIMX_IC4"
+            ]
+        },
+        "PB2": {
+            "position": "M6",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN0b",
+                "TS_G3_IO3"
+            ]
+        },
+        "PE6": {
+            "position": "E6",
+            "type": "I/O",
+            "altfunctions": [
+                "WKUP3",
+                "RTC_TAMP3",
+                "SYS_TRACED3",
+                "SYS_WKUP3",
                 "TIM9_CH2",
+                "TIMX_IC3"
+            ]
+        },
+        "PE15": {
+            "position": "K4",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_EXTI15",
+                "SPI1_MOSI",
+                "TIMX_IC4"
+            ]
+        },
+        "PD9": {
+            "position": "J2",
+            "type": "I/O",
+            "altfunctions": [
+                "DAC_EXTI9",
+                "LCD_SEG29",
+                "TIMX_IC2",
+                "USART3_RX"
+            ]
+        },
+        "PA2": {
+            "position": "J8",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN2",
+                "COMP1_INP",
+                "LCD_SEG1",
+                "OPAMP1_VINM",
+                "TIM2_CH3",
+                "TIM5_CH3",
+                "TIM9_CH1",
+                "TIMX_IC3",
+                "TS_G1_IO3",
+                "USART2_TX"
+            ]
+        },
+        "PE2": {
+            "position": "D6",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_SEG38",
+                "SYS_TRACECK",
+                "TIM3_ETR",
+                "TIMX_IC3"
+            ]
+        },
+        "PB11": {
+            "position": "L3",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_EXTI11",
+                "I2C2_SDA",
+                "LCD_SEG11",
+                "TIM2_CH4",
+                "USART3_RX"
+            ]
+        },
+        "PC4": {
+            "position": "L7",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN14",
+                "COMP1_INP",
+                "LCD_SEG22",
+                "TIMX_IC1",
+                "TS_G9_IO1"
+            ]
+        },
+        "PC12": {
+            "position": "B2",
+            "type": "I/O",
+            "altfunctions": [
+                "I2S3_SD",
+                "LCD_COM6",
+                "LCD_SEG30",
+                "LCD_SEG42",
+                "SPI3_MOSI",
+                "TIMX_IC1",
+                "UART5_TX",
+                "USART3_CK"
+            ]
+        },
+        "PA7": {
+            "position": "K7",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN7",
+                "COMP1_INP",
+                "LCD_SEG4",
+                "OPAMP2_VINM",
+                "SPI1_MOSI",
+                "TIM11_CH1",
+                "TIM3_CH2",
                 "TIMX_IC4",
-                "TS_G1_IO4",
-                "USART2_RX"
-            ],
-            "type": "I/O"
+                "TS_G2_IO2"
+            ]
+        },
+        "VDD": {
+            "position": "M9",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PA14": {
+            "position": "D3",
+            "type": "I/O",
+            "altfunctions": [
+                "SYS_JTCK-SWCLK",
+                "TIMX_IC3",
+                "TS_G5_IO2"
+            ]
+        },
+        "PA12": {
+            "position": "E2",
+            "type": "I/O",
+            "altfunctions": [
+                "SPI1_MOSI",
+                "TIMX_IC1",
+                "USART1_RTS",
+                "USB_DP"
+            ]
+        },
+        "VDDA": {
+            "position": "G6",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "VSS": {
+            "position": "M1",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PE12": {
+            "position": "M3",
+            "type": "I/O",
+            "altfunctions": [
+                "SPI1_NSS",
+                "TIM2_CH4",
+                "TIMX_IC1"
+            ]
+        },
+        "PB13": {
+            "position": "J3",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN19",
+                "COMP1_INP",
+                "I2S2_CK",
+                "LCD_SEG13",
+                "SPI2_SCK",
+                "TIM9_CH1",
+                "TS_G7_IO2",
+                "USART3_CTS"
+            ]
+        },
+        "PE10": {
+            "position": "J5",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN25",
+                "COMP1_INP",
+                "TIM2_CH2",
+                "TIMX_IC3"
+            ]
+        },
+        "PD4": {
+            "position": "A3",
+            "type": "I/O",
+            "altfunctions": [
+                "I2S2_SD",
+                "SPI2_MOSI",
+                "TIMX_IC1",
+                "USART2_RTS"
+            ]
+        },
+        "VREF-": {
+            "position": "H8",
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PC3": {
+            "position": "G8",
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN13",
+                "COMP1_INP",
+                "LCD_SEG21",
+                "TIMX_IC4",
+                "TS_G8_IO4"
+            ]
+        },
+        "PD14": {
+            "position": "J1",
+            "type": "I/O",
+            "altfunctions": [
+                "LCD_SEG34",
+                "TIM4_CH3",
+                "TIMX_IC3"
+            ]
         }
     }
 }

@@ -11,203 +11,57 @@
         "min": 0,
         "max": "72"
     },
+    "datasheetlink": "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf",
     "pins": {
-        "PB1": {
-            "position": 19,
+        "PB6": {
+            "position": 42,
+            "type": "I/O",
             "altfunctions": [
-                "ADC1_IN9",
-                "ADC2_IN9",
-                "TIM1_CH3N",
-                "TIM3_CH4"
-            ],
-            "type": "I/O"
-        },
-        "PA7": {
-            "position": 17,
-            "altfunctions": [
-                "ADC1_IN7",
-                "ADC2_IN7",
-                "SPI1_MOSI",
-                "TIM1_CH1N",
-                "TIM3_CH2"
-            ],
-            "type": "I/O"
-        },
-        "PD0": {
-            "position": 5,
-            "altfunctions": [
-                "OSC_IN",
-                "RCC_OSC_IN"
-            ],
-            "type": "I/O"
-        },
-        "PA4": {
-            "position": 14,
-            "altfunctions": [
-                "ADC1_IN4",
-                "ADC2_IN4",
-                "SPI1_NSS",
-                "USART2_CK"
-            ],
-            "type": "I/O"
-        },
-        "PB12": {
-            "position": 25,
-            "altfunctions": [
-                "TIM1_BKIN"
-            ],
-            "type": "I/O"
-        },
-        "PA8": {
-            "position": 29,
-            "altfunctions": [
-                "RCC_MCO",
-                "TIM1_CH1",
-                "USART1_CK"
-            ],
-            "type": "I/O"
-        },
-        "VSSA": {
-            "position": 8,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "VDDA": {
-            "position": 9,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PB0": {
-            "position": 18,
-            "altfunctions": [
-                "ADC1_IN8",
-                "ADC2_IN8",
-                "TIM1_CH2N",
-                "TIM3_CH3"
-            ],
-            "type": "I/O"
-        },
-        "PB4": {
-            "position": 40,
-            "altfunctions": [
-                "SPI1_MISO",
-                "SYS_NJTRST",
-                "TIM3_CH1"
-            ],
-            "type": "I/O"
-        },
-        "VBAT": {
-            "position": 1,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PB8": {
-            "position": 45,
-            "altfunctions": [
-                "CAN_RX",
-                "I2C1_SCL"
-            ],
-            "type": "I/O"
-        },
-        "PB9": {
-            "position": 46,
-            "altfunctions": [
-                "CAN_TX",
-                "I2C1_SDA"
-            ],
-            "type": "I/O"
-        },
-        "PA13": {
-            "position": 34,
-            "altfunctions": [
-                "SYS_JTMS-SWDIO"
-            ],
-            "type": "I/O"
-        },
-        "BOOT0": {
-            "position": 44,
-            "altfunctions": [],
-            "type": "Boot"
-        },
-        "PB10": {
-            "position": 21,
-            "altfunctions": [
-                "TIM2_CH3"
-            ],
-            "type": "I/O"
-        },
-        "PB13": {
-            "position": 26,
-            "altfunctions": [
-                "TIM1_CH1N"
-            ],
-            "type": "I/O"
-        },
-        "PB14": {
-            "position": 27,
-            "altfunctions": [
-                "TIM1_CH2N"
-            ],
-            "type": "I/O"
+                "I2C1_SCL",
+                "USART1_TX"
+            ]
         },
         "PA6": {
             "position": 16,
+            "type": "I/O",
             "altfunctions": [
                 "ADC1_IN6",
                 "ADC2_IN6",
                 "SPI1_MISO",
                 "TIM1_BKIN",
                 "TIM3_CH1"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PB7": {
-            "position": 43,
+        "PA9": {
+            "position": 30,
+            "type": "I/O",
             "altfunctions": [
-                "I2C1_SDA",
-                "USART1_RX"
-            ],
-            "type": "I/O"
+                "TIM1_CH2",
+                "USART1_TX"
+            ]
         },
-        "PB15": {
-            "position": 28,
+        "PA13": {
+            "position": 34,
+            "type": "I/O",
+            "altfunctions": [
+                "SYS_JTMS-SWDIO"
+            ]
+        },
+        "PA15": {
+            "position": 38,
+            "type": "I/O",
             "altfunctions": [
                 "ADC1_EXTI15",
                 "ADC2_EXTI15",
-                "TIM1_CH3N"
-            ],
-            "type": "I/O"
-        },
-        "PB6": {
-            "position": 42,
-            "altfunctions": [
-                "I2C1_SCL",
-                "USART1_TX"
-            ],
-            "type": "I/O"
-        },
-        "PA12": {
-            "position": 33,
-            "altfunctions": [
-                "CAN_TX",
-                "TIM1_ETR",
-                "USART1_RTS",
-                "USB_DP"
-            ],
-            "type": "I/O"
-        },
-        "NRST": {
-            "position": 7,
-            "altfunctions": [],
-            "type": "Reset"
-        },
-        "PB2": {
-            "position": 20,
-            "altfunctions": [],
-            "type": "I/O"
+                "SPI1_NSS",
+                "SYS_JTDI",
+                "TIM2_CH1",
+                "TIM2_ETR"
+            ]
         },
         "PA0": {
             "position": 10,
+            "type": "I/O",
             "altfunctions": [
                 "WKUP",
                 "ADC1_IN0",
@@ -216,131 +70,209 @@
                 "TIM2_CH1",
                 "TIM2_ETR",
                 "USART2_CTS"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PC15": {
-            "position": 4,
+        "PB15": {
+            "position": 28,
+            "type": "I/O",
             "altfunctions": [
-                "OSC32_OUT",
                 "ADC1_EXTI15",
                 "ADC2_EXTI15",
-                "RCC_OSC32_OUT"
-            ],
-            "type": "I/O"
+                "TIM1_CH3N"
+            ]
         },
-        "PC14": {
-            "position": 3,
+        "PA8": {
+            "position": 29,
+            "type": "I/O",
             "altfunctions": [
-                "OSC32_IN",
-                "RCC_OSC32_IN"
-            ],
-            "type": "I/O"
-        },
-        "PB5": {
-            "position": 41,
-            "altfunctions": [
-                "I2C1_SMBA",
-                "SPI1_MOSI",
-                "TIM3_CH2"
-            ],
-            "type": "I/O"
-        },
-        "PA1": {
-            "position": 11,
-            "altfunctions": [
-                "ADC1_IN1",
-                "ADC2_IN1",
-                "TIM2_CH2",
-                "USART2_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PA5": {
-            "position": 15,
-            "altfunctions": [
-                "ADC1_IN5",
-                "ADC2_IN5",
-                "SPI1_SCK"
-            ],
-            "type": "I/O"
-        },
-        "PA9": {
-            "position": 30,
-            "altfunctions": [
-                "TIM1_CH2",
-                "USART1_TX"
-            ],
-            "type": "I/O"
-        },
-        "VSS": {
-            "position": 47,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PC13": {
-            "position": 2,
-            "altfunctions": [
-                "TAMPER",
-                "RTC_OUT",
-                "RTC_TAMPER"
-            ],
-            "type": "I/O"
-        },
-        "PD1": {
-            "position": 6,
-            "altfunctions": [
-                "OSC_OUT",
-                "RCC_OSC_OUT"
-            ],
-            "type": "I/O"
-        },
-        "VDD": {
-            "position": 48,
-            "altfunctions": [],
-            "type": "Power"
+                "RCC_MCO",
+                "TIM1_CH1",
+                "USART1_CK"
+            ]
         },
         "PA2": {
             "position": 12,
+            "type": "I/O",
             "altfunctions": [
                 "ADC1_IN2",
                 "ADC2_IN2",
                 "TIM2_CH3",
                 "USART2_TX"
-            ],
-            "type": "I/O"
-        },
-        "PA15": {
-            "position": 38,
-            "altfunctions": [
-                "ADC1_EXTI15",
-                "ADC2_EXTI15",
-                "SPI1_NSS",
-                "SYS_JTDI",
-                "TIM2_CH1",
-                "TIM2_ETR"
-            ],
-            "type": "I/O"
+            ]
         },
         "PA10": {
             "position": 31,
+            "type": "I/O",
             "altfunctions": [
                 "TIM1_CH3",
                 "USART1_RX"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "PB12": {
+            "position": 25,
+            "type": "I/O",
+            "altfunctions": [
+                "TIM1_BKIN"
+            ]
+        },
+        "PB9": {
+            "position": 46,
+            "type": "I/O",
+            "altfunctions": [
+                "CAN_TX",
+                "I2C1_SDA"
+            ]
+        },
+        "PA12": {
+            "position": 33,
+            "type": "I/O",
+            "altfunctions": [
+                "CAN_TX",
+                "TIM1_ETR",
+                "USART1_RTS",
+                "USB_DP"
+            ]
+        },
+        "PA1": {
+            "position": 11,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN1",
+                "ADC2_IN1",
+                "TIM2_CH2",
+                "USART2_RTS"
+            ]
+        },
+        "PB4": {
+            "position": 40,
+            "type": "I/O",
+            "altfunctions": [
+                "SPI1_MISO",
+                "SYS_NJTRST",
+                "TIM3_CH1"
+            ]
+        },
+        "PC15": {
+            "position": 4,
+            "type": "I/O",
+            "altfunctions": [
+                "OSC32_OUT",
+                "ADC1_EXTI15",
+                "ADC2_EXTI15",
+                "RCC_OSC32_OUT"
+            ]
+        },
+        "VDDA": {
+            "position": 9,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "VSSA": {
+            "position": 8,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PB3": {
+            "position": 39,
+            "type": "I/O",
+            "altfunctions": [
+                "SPI1_SCK",
+                "SYS_JTDO-TRACESWO",
+                "TIM2_CH2"
+            ]
+        },
+        "NRST": {
+            "position": 7,
+            "type": "Reset",
+            "altfunctions": []
+        },
+        "PD1": {
+            "position": 6,
+            "type": "I/O",
+            "altfunctions": [
+                "OSC_OUT",
+                "RCC_OSC_OUT"
+            ]
+        },
+        "PB0": {
+            "position": 18,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN8",
+                "ADC2_IN8",
+                "TIM1_CH2N",
+                "TIM3_CH3"
+            ]
+        },
+        "PA3": {
+            "position": 13,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN3",
+                "ADC2_IN3",
+                "TIM2_CH4",
+                "USART2_RX"
+            ]
+        },
+        "PB1": {
+            "position": 19,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN9",
+                "ADC2_IN9",
+                "TIM1_CH3N",
+                "TIM3_CH4"
+            ]
+        },
+        "PB2": {
+            "position": 20,
+            "type": "I/O",
+            "altfunctions": []
+        },
+        "PC13": {
+            "position": 2,
+            "type": "I/O",
+            "altfunctions": [
+                "TAMPER",
+                "RTC_OUT",
+                "RTC_TAMPER"
+            ]
+        },
+        "VBAT": {
+            "position": 1,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PA4": {
+            "position": 14,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN4",
+                "ADC2_IN4",
+                "SPI1_NSS",
+                "USART2_CK"
+            ]
         },
         "PB11": {
             "position": 22,
+            "type": "I/O",
             "altfunctions": [
                 "ADC1_EXTI11",
                 "ADC2_EXTI11",
                 "TIM2_CH4"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "PB7": {
+            "position": 43,
+            "type": "I/O",
+            "altfunctions": [
+                "I2C1_SDA",
+                "USART1_RX"
+            ]
         },
         "PA11": {
             "position": 32,
+            "type": "I/O",
             "altfunctions": [
                 "ADC1_EXTI11",
                 "ADC2_EXTI11",
@@ -348,34 +280,103 @@
                 "TIM1_CH4",
                 "USART1_CTS",
                 "USB_DM"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PB3": {
-            "position": 39,
+        "BOOT0": {
+            "position": 44,
+            "type": "Boot",
+            "altfunctions": []
+        },
+        "PA7": {
+            "position": 17,
+            "type": "I/O",
             "altfunctions": [
-                "SPI1_SCK",
-                "SYS_JTDO-TRACESWO",
-                "TIM2_CH2"
-            ],
-            "type": "I/O"
+                "ADC1_IN7",
+                "ADC2_IN7",
+                "SPI1_MOSI",
+                "TIM1_CH1N",
+                "TIM3_CH2"
+            ]
+        },
+        "VDD": {
+            "position": 48,
+            "type": "Power",
+            "altfunctions": []
         },
         "PA14": {
             "position": 37,
+            "type": "I/O",
             "altfunctions": [
                 "SYS_JTCK-SWCLK"
-            ],
-            "type": "I/O"
+            ]
         },
-        "PA3": {
-            "position": 13,
+        "PB8": {
+            "position": 45,
+            "type": "I/O",
             "altfunctions": [
-                "ADC1_IN3",
-                "ADC2_IN3",
-                "TIM2_CH4",
-                "USART2_RX"
-            ],
-            "type": "I/O"
+                "CAN_RX",
+                "I2C1_SCL"
+            ]
+        },
+        "PB14": {
+            "position": 27,
+            "type": "I/O",
+            "altfunctions": [
+                "TIM1_CH2N"
+            ]
+        },
+        "VSS": {
+            "position": 47,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PB10": {
+            "position": 21,
+            "type": "I/O",
+            "altfunctions": [
+                "TIM2_CH3"
+            ]
+        },
+        "PB13": {
+            "position": 26,
+            "type": "I/O",
+            "altfunctions": [
+                "TIM1_CH1N"
+            ]
+        },
+        "PD0": {
+            "position": 5,
+            "type": "I/O",
+            "altfunctions": [
+                "OSC_IN",
+                "RCC_OSC_IN"
+            ]
+        },
+        "PC14": {
+            "position": 3,
+            "type": "I/O",
+            "altfunctions": [
+                "OSC32_IN",
+                "RCC_OSC32_IN"
+            ]
+        },
+        "PA5": {
+            "position": 15,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC1_IN5",
+                "ADC2_IN5",
+                "SPI1_SCK"
+            ]
+        },
+        "PB5": {
+            "position": 41,
+            "type": "I/O",
+            "altfunctions": [
+                "I2C1_SMBA",
+                "SPI1_MOSI",
+                "TIM3_CH2"
+            ]
         }
     }
 }

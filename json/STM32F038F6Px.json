@@ -11,24 +11,74 @@
         "min": 0,
         "max": "48"
     },
+    "datasheetlink": "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf",
     "pins": {
-        "VDD": {
-            "position": 16,
-            "altfunctions": [],
-            "type": "Power"
+        "PA0": {
+            "position": 6,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN0",
+                "RTC_TAMP2",
+                "SYS_WKUP1",
+                "TIM2_CH1",
+                "TIM2_ETR",
+                "USART1_CTS"
+            ]
         },
-        "NRST": {
-            "position": 4,
-            "altfunctions": [],
-            "type": "Reset"
+        "PA1": {
+            "position": 7,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN1",
+                "TIM2_CH2",
+                "USART1_DE",
+                "USART1_RTS"
+            ]
         },
         "NPOR": {
             "position": 14,
-            "altfunctions": [],
-            "type": "Power"
+            "type": "Power",
+            "altfunctions": []
+        },
+        "PA10": {
+            "position": 18,
+            "type": "I/O",
+            "altfunctions": [
+                "I2C1_SDA",
+                "TIM17_BKIN",
+                "TIM1_CH3",
+                "USART1_RX"
+            ]
+        },
+        "PA6": {
+            "position": 12,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN6",
+                "I2S1_MCK",
+                "SPI1_MISO",
+                "TIM16_CH1",
+                "TIM1_BKIN",
+                "TIM3_CH1"
+            ]
+        },
+        "PA9": {
+            "position": 17,
+            "type": "I/O",
+            "altfunctions": [
+                "I2C1_SCL",
+                "TIM1_CH2",
+                "USART1_TX"
+            ]
+        },
+        "BOOT0": {
+            "position": 1,
+            "type": "Boot",
+            "altfunctions": []
         },
         "PA7": {
             "position": 13,
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN7",
                 "I2S1_SD",
@@ -37,148 +87,99 @@
                 "TIM17_CH1",
                 "TIM1_CH1N",
                 "TIM3_CH2"
-            ],
-            "type": "I/O"
+            ]
         },
         "PA13": {
             "position": 19,
+            "type": "I/O",
             "altfunctions": [
                 "IR_OUT",
                 "SYS_SWDIO"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "VDD": {
+            "position": 16,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "VSS": {
+            "position": 15,
+            "type": "Power",
+            "altfunctions": []
         },
         "PA14": {
             "position": 20,
+            "type": "I/O",
             "altfunctions": [
                 "SYS_SWCLK",
                 "USART1_TX"
-            ],
-            "type": "I/O"
-        },
-        "PA0": {
-            "position": 6,
-            "altfunctions": [
-                "ADC_IN0",
-                "RTC_TAMP2",
-                "SYS_WKUP1",
-                "TIM2_CH1",
-                "TIM2_ETR",
-                "USART1_CTS"
-            ],
-            "type": "I/O"
+            ]
         },
         "PF1": {
             "position": 3,
+            "type": "I/O",
             "altfunctions": [
                 "OSC_OUT",
                 "RCC_OSC_OUT"
-            ],
-            "type": "I/O"
+            ]
         },
-        "BOOT0": {
-            "position": 1,
-            "altfunctions": [],
-            "type": "Boot"
+        "VDDA": {
+            "position": 5,
+            "type": "Power",
+            "altfunctions": []
+        },
+        "NRST": {
+            "position": 4,
+            "type": "Reset",
+            "altfunctions": []
+        },
+        "PF0": {
+            "position": 2,
+            "type": "I/O",
+            "altfunctions": [
+                "OSC_IN",
+                "RCC_OSC_IN"
+            ]
         },
         "PA2": {
             "position": 8,
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN2",
                 "TIM2_CH3",
                 "USART1_TX"
-            ],
-            "type": "I/O"
+            ]
+        },
+        "PA3": {
+            "position": 9,
+            "type": "I/O",
+            "altfunctions": [
+                "ADC_IN3",
+                "TIM2_CH4",
+                "USART1_RX"
+            ]
         },
         "PA4": {
             "position": 10,
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN4",
                 "I2S1_WS",
                 "SPI1_NSS",
                 "TIM14_CH1",
                 "USART1_CK"
-            ],
-            "type": "I/O"
-        },
-        "PA1": {
-            "position": 7,
-            "altfunctions": [
-                "ADC_IN1",
-                "TIM2_CH2",
-                "USART1_DE",
-                "USART1_RTS"
-            ],
-            "type": "I/O"
-        },
-        "PA10": {
-            "position": 18,
-            "altfunctions": [
-                "I2C1_SDA",
-                "TIM17_BKIN",
-                "TIM1_CH3",
-                "USART1_RX"
-            ],
-            "type": "I/O"
+            ]
         },
         "PA5": {
             "position": 11,
+            "type": "I/O",
             "altfunctions": [
                 "ADC_IN5",
                 "I2S1_CK",
                 "SPI1_SCK",
                 "TIM2_CH1",
                 "TIM2_ETR"
-            ],
-            "type": "I/O"
-        },
-        "VSS": {
-            "position": 15,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PA6": {
-            "position": 12,
-            "altfunctions": [
-                "ADC_IN6",
-                "I2S1_MCK",
-                "SPI1_MISO",
-                "TIM16_CH1",
-                "TIM1_BKIN",
-                "TIM3_CH1"
-            ],
-            "type": "I/O"
-        },
-        "PF0": {
-            "position": 2,
-            "altfunctions": [
-                "OSC_IN",
-                "RCC_OSC_IN"
-            ],
-            "type": "I/O"
-        },
-        "PA9": {
-            "position": 17,
-            "altfunctions": [
-                "I2C1_SCL",
-                "TIM1_CH2",
-                "USART1_TX"
-            ],
-            "type": "I/O"
-        },
-        "VDDA": {
-            "position": 5,
-            "altfunctions": [],
-            "type": "Power"
-        },
-        "PA3": {
-            "position": 9,
-            "altfunctions": [
-                "ADC_IN3",
-                "TIM2_CH4",
-                "USART1_RX"
-            ],
-            "type": "I/O"
+            ]
         }
     }
 }
