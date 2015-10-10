@@ -3,7 +3,3 @@ This repository contains information about STM32 devices, such as pin configurat
 
 ## Contributing
 If you wish to contribute new device information, please read [CONTRIBUTING.md](CONTRIBUTING.md) carefully.
-
-## License
-Those json files are available under the GPL v3 license.
-
